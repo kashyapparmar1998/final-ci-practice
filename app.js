@@ -7,7 +7,7 @@ function checkEven(num) {
 }
 
 app.get('/', (req, res) => {
-  res.send('<h1>🚀 My Node.js App is Live via CI/CD on Render!</h1>');
+  res.send('<h1 style="color: green; text-align: center; margin-top: 50px;">🎉 Congratulations Kashyap! Automated CI/CD is Fully Working! 🚀</h1>');
 });
 
 module.exports = checkEven;
